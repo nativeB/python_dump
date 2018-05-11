@@ -32,7 +32,7 @@ class BrickSetSpider(scrapy.Spider):
 
         mine=response.css(selector4).extract()
         my=None
-
+        //sorting out by finding keywords
         if 'CLICK ON LINKS BELOW TO DOWNLOAD' in mine:
             my=mine.index('CLICK ON LINKS BELOW TO DOWNLOAD')
         elif 'CLICK ON LINKS BELOW TO DOWNLOAD ' in mine:
