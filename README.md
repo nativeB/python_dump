@@ -1,2 +1,2 @@
 # python_dump
-just a dump for code i  wrote to scrap a website
+just a dump for impromtu  code i  wrote to scrap a movie website website
